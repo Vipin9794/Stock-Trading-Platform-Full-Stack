@@ -21,7 +21,7 @@
 //   const onSubmit = async (e) => {
 //     e.preventDefault();
 //     try {
-//       const res = await axios.post("http://localhost:3002/login", loginData, {
+//       const res = await axios.post("https://stock-trading-platform-full-stack-backend.onrender.com", loginData, {
 //         withCredentials: true,
 //       });
 
@@ -162,7 +162,7 @@ function Login() {
     setLoading(true); // Start loading
 
     try {
-      const res = await axios.post("http://localhost:3002/login", loginData, {
+      const res = await axios.post("https://stock-trading-platform-full-stack-backend.onrender.com", loginData, {
         withCredentials: true,
       });
 
