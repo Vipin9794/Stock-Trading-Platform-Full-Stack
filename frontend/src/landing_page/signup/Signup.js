@@ -169,7 +169,7 @@ function Signup() {
       if (success) {
         toast.success(message);
         setTimeout(() => {
-          window.location.href = "https://stock-trading-platform-full-stack-ayn1.onrender.com";
+          window.location.href = "https://stock-trading-platform-full-stack-ayn1.onrender.com/signup";
         }, 1000);
       } else {
         toast.error(message);
