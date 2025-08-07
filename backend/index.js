@@ -271,7 +271,7 @@ const url = process.env.MONGO_URL;
 // Middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: ["https://stock-trading-platform-full-stack-ayn1.onrender.com", "https://stock-trading-platform-full-stack.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
