@@ -173,7 +173,7 @@ function Login() {
         toast.success(message);
 
         setTimeout(() => {
-          window.location.href = "https://stock-trading-platform-full-stack-ayn1.onrender.com";
+          window.location.href = "https://stock-trading-platform-full-stack-ayn1.onrender.com/";
         }, 1000);
       } else {
         toast.error(message || "Login failed.");
