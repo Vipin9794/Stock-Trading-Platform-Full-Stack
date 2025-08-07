@@ -29,7 +29,7 @@ const BuyActionWindow = ({ uid, mode = "BUY" }) => {
 
       console.log("Sending order:", orderData); // Debug log
 
-      await axios.post("http://localhost:3002/newOrder", orderData);
+      await axios.post("https://stock-trading-platform-full-stack-backend.onrender.com", orderData);
       closeBuyWindow();
     } catch (err) {
       console.error("Order failed:", err.message);
