@@ -9,7 +9,7 @@ const Orders = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     console.log(user);
     axios
-      .get(`http://localhost:3002/allOrders?userId=${user._id}`)
+      .get(`https://stock-trading-platform-full-stack-backend.onrender.com?userId=${user._id}`)
       .then((res) => {
         setAllOrders(res.data);
       });
