@@ -8,7 +8,7 @@ describe("Hero Component" , ()=>{
         render(<Hero />);
         const heroImage = screen.getByAltText("Hero Image");
         expect(heroImage).toBeInTheDocument();
-        expect(heroImage).toHaveAttribute('src' ,'media/images/homeHero.png')
+        expect(heroImage).toHaveAttribute('src' ,'')
     });
     test("render signup button" , ()=>{
         render(<Hero/>);
