@@ -159,7 +159,7 @@ function Signup() {
     setIsLoading(true);
     try {
       const { data } = await axios.post(
-        "http://localhost:3002/signup",
+        "https://stock-trading-platform-full-stack-backend.onrender.com",
         { ...InputValues },
         {
           withCredentials: true,
