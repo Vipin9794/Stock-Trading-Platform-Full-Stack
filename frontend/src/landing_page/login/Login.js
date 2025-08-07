@@ -162,7 +162,7 @@ function Login() {
     setLoading(true); // Start loading
 
     try {
-      const res = await axios.post("https://stock-trading-platform-full-stack-backend.onrender.com", loginData, {
+      const res = await axios.post("https://stock-trading-platform-full-stack-backend.onrender.com/login", loginData, {
         withCredentials: true,
       });
 
