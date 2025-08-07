@@ -9,7 +9,7 @@ const Holdings = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3002/allHoldings", { withCredentials: true })
+      .get("https://stock-trading-platform-full-stack-backend.onrender.com", { withCredentials: true })
       .then((res) => {
         console.log(res.data);
         setAllHoldings(res.data);
