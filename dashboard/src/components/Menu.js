@@ -10,7 +10,7 @@ const Menu = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = await axios.get("https://stock-trading-platform-full-stack-backend.onrender.com", {
+        const response = await axios.get("https://stock-trading-platform-full-stack-backend.onrender.com/getuser", {
           withCredentials: true,
         });
 
