@@ -153,7 +153,7 @@ const Menu = () => {
                 boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
                 borderRadius: "8px",
                 padding: "16px",
-                width: "220px",
+                width: "240px",
                 zIndex: 1000,
               }}
             >
@@ -187,6 +187,7 @@ const Menu = () => {
                   marginBottom: "12px",
                   fontWeight: "bold",
                   color: "#333",
+                  
                 }}
               >
                 <i

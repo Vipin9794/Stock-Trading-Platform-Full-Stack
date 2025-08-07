@@ -12,37 +12,39 @@ function Team() {
       >
         <div className="col-6 ">
           <img
-            src="media/images/nithinKamath.jpg"
+            src="media/images/VipinProfile.jpg"
             style={{ borderRadius: "100%", width: "50%", marginLeft: "95px" }}
             alt=""
           />
           <p style={{ marginLeft: "180px" }}>
-            <b>Nithin Kamath</b>
+            <b>Vipin Kumar</b>
           </p>
-          <p style={{ marginLeft: "180px" }}>Founder, CEO</p>
+          <p style={{ marginLeft: "138px" }}> Full Stack web developer</p>
         </div>
         <div className="col-6 ">
           <p>
-            Nithin bootstrapped and founded Zerodha in 2010 to overcome the
-            hurdles he faced during his decade long stint as a trader. Today,
-            Zerodha has changed the landscape of the Indian broking industry.
+            I’m a passionate full stack web developer currently pursuing a
+            B.Tech in Computer Science And Engineering. I built this{" "}
+            <b>FinSync – Zerodha-Inspired Stock Platform </b> project to sharpen
+            my skills in frontend and backend development, especially using the
+            MERN stack.
           </p>
           <p>
-            He is a member of the SEBI Secondary Market Advisory Committee
-            (SMAC) and the Market Data Advisory Committee (MDAC).
+            This project helped me understand how real-world trading platforms
+            are structured and how to implement scalable features.
           </p>
           <p>Playing basketball is his zen.</p>
           <br />
           <p>
-            Connect on{" "}
+            Connect on
             <a style={{ textDecoration: "none" }} href="">
-              Homepage{" "}
+              Homepage
             </a>
-            /{" "}
+            /
             <a style={{ textDecoration: "none" }} href="">
-              TradingQnA{" "}
+              TradingQnA
             </a>
-            /{" "}
+            /
             <a style={{ textDecoration: "none" }} href="">
               Twitter
             </a>
