@@ -42,7 +42,7 @@ const Menu = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("user");
     // redirect to login
-    window.location.href = "http://localhost:3001/login";
+    window.location.href = "https://stock-trading-platform-full-stack.onrender.com/login";
   };
 
   // Get initials from name/email
