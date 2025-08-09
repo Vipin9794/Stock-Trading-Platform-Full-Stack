@@ -1,7 +1,7 @@
 
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast, Bounce } from "react-toastify";
 
@@ -14,7 +14,7 @@ function Signup() {
 
   const [isLoading, setIsLoading] = useState(false);
   
-
+const navigate = useNavigate();
   let handleInputChange = (event) => {
     let fieldName = event.target.name;
     let fieldValue = event.target.value;
@@ -39,7 +39,8 @@ function Signup() {
       if (success) {
         toast.success(message);
         setTimeout(() => {
-          window.location.href = "https://stock-trading-platform-full-stack-ayn1.onrender.com/";
+          // window.location.href = "https://stock-trading-platform-full-stack-ayn1.onrender.com/";
+           navigate("/login");
         }, 1000);
       } else {
         toast.error(message);
