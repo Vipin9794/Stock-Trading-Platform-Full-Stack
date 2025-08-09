@@ -8,8 +8,8 @@ const { verifyToken } = require("../middleware/verifyToken");
 // const { UserVerification } = require("../middlewares/UserVerification");
 const router = require("express").Router();
 
-router.post("/signup", Signup);
-router.post("/login", login);
+router.post("/signup", verifyToken, Signup);
+router.post("/login", verifyToken, login);
 router.get("/getuser", verifyToken, getuser);
 router.get("/logout", logout);
 
